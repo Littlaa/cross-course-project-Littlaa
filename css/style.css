@@ -1,3 +1,4 @@
+/* Layout */
 header {
   background-color: #fff;
 }
@@ -8,6 +9,38 @@ header {
 
 .home_logo img {
   width: 25%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav_position {
+  padding: 25px;
+  text-align: center;
+}
+
+.cta {
+  background-color: #324759;
+  color: #fff;
+  border-color: #d99f59;
+  border-radius: 30px;
+  border-width: 5px;
+  border-style: solid;
+  font-size: 1.2em;
+  padding: 5px 20px;
+}
+
+.cart_icon_position {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+.cart_icon img {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
 }
 
 body {
