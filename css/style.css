@@ -21,6 +21,7 @@ h2 {
 
 .cta_ch {
   font-family: "Bahnschrift condensed", Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
 }
 
 .home_logo {
@@ -95,4 +96,8 @@ main img {
   width: 263px;
   height: 175;
   padding: 20px;
+}
+
+.h2_pushing {
+  color: #fff;
 }
