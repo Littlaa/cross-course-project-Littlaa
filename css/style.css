@@ -1,9 +1,26 @@
+@font-face {
+  font-family: "Bahnschrift";
+  src: url("../fonts/BAHNSCHRIFT\ 1.TTF") format("truetype");
+}
+
 /* Layout */
 header {
   background-color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+h1 {
+  font-family: "Bahnschrift bold condensed", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+  font-family: "Bahnschrift condensed", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cta_ch {
+  font-family: "Bahnschrift condensed", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .home_logo {
@@ -58,6 +75,7 @@ footer a {
 
 .footer_links {
   padding: 15px;
+  font-family: "Bahnschrift condensed", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 footer {
@@ -65,4 +83,16 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* Main elements home*/
+main {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+main img {
+  width: 263px;
+  height: 175;
+  padding: 20px;
 }
