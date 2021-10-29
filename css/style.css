@@ -19,11 +19,6 @@ h2 {
   font-family: "Bahnschrift condensed", Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.cta_ch {
-  font-family: "Bahnschrift condensed", Verdana, Geneva, Tahoma, sans-serif;
-  text-decoration: underline;
-}
-
 .home_logo {
   padding: 10px;
 }
@@ -37,19 +32,21 @@ a {
 }
 
 .nav_position {
-  padding: 25px;
+  padding: 5%;
   text-align: center;
+  position: relative;
 }
 
 .cta {
   background-color: #324759;
+  position: inherit;
   color: #fff;
   border-color: #d99f59;
   border-radius: 30px;
   border-width: 5px;
   border-style: solid;
   font-size: 1.2em;
-  padding: 5px 20px;
+  padding: 5px 25px;
 }
 
 .cart_icon img {
@@ -90,14 +87,45 @@ footer {
 main {
   display: grid;
   grid-template-columns: auto;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  margin-bottom: 20%;
 }
 
 main img {
   width: 263px;
-  height: 175;
+  height: 175px;
   padding: 20px;
 }
 
-.h2_pushing {
+.cta_ch {
+  font-family: "Bahnschrift condensed", Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+  position: absolute;
+  text-align: left;
+  font-size: 90%;
+  right: 19vh;
+  top: 8vh;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  position: relative;
+}
+
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
   color: #fff;
+}
+
+.top-left {
+  position: absolute;
+  top: 3vh;
+  left: 3vh;
+  color: #324759;
 }
