@@ -29,6 +29,7 @@ h2 {
 
 a {
   text-decoration: none;
+  font-family: "Bahnschrift light", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .nav_position {
@@ -61,6 +62,10 @@ body {
   margin: 0;
   display: grid;
   grid-template-rows: auto 1fr auto;
+}
+
+section h1 {
+  text-align: center;
 }
 
 footer a {
@@ -116,13 +121,14 @@ main img {
   position: relative;
 }
 
-.centered {
+.img_text {
   position: absolute;
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: #fff;
+  font-family: "Bahnschrift condensed", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .top-left {
@@ -130,6 +136,7 @@ main img {
   top: 3vh;
   left: 3vh;
   color: #324759;
+  font-family: "Bahnschrift condensed", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Tablet and desktop size */
@@ -139,9 +146,45 @@ main img {
   }
 }
 
+@media (min-width: 800px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  main img {
+    width: 335px;
+    height: 247px;
+    padding: 20px;
+  }
+
+  section h1 {
+    font-size: 32px;
+  }
+
+  .img_text,
+  .top-left {
+    font-size: 22px;
+  }
+
+  .cta_ch {
+    font-size: 22px;
+    right: 24vh;
+    top: 11vh;
+  }
+
+  .cta {
+    padding: 10px 80px;
+  }
+}
+
 @media (min-width: 964px) {
   .nav_position {
     display: none;
+  }
+
+  .nav_position_desktop {
+    display: contents;
   }
 
   .home_logo img {
@@ -153,31 +196,25 @@ main img {
     height: 60px;
     padding: 10px;
   }
-}
 
-@media (min-width: 800px) {
-  main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas:
-      "a a"
-      "b c";
+  main img {
+    width: 650px;
+    height: 562px;
+    padding: 20px;
   }
 
-  main h1 {
-    grid-area: a;
-    margin-left: 43vh;
+  section h1 {
+    font-size: 48px;
   }
 
-  main section:first-of-type {
-    grid-area: b;
+  .img_text,
+  .top-left {
+    font-size: 48px;
   }
 
-  main section:last-of-type {
-    grid-area: c;
-  }
-
-  .cta {
-    padding: 10px 80px;
+  .cta_ch {
+    font-size: 32px;
+    right: 48vh;
+    top: 21vh;
   }
 }
