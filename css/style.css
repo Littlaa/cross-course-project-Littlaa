@@ -136,7 +136,7 @@ section h1 {
   font-family: "Bahnschrift condensed", Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* Tablet and desktop size */
+/* Tablet size*/
 @media (max-width: 965px) {
   .nav_position_desktop {
     display: none;
@@ -147,6 +147,10 @@ section h1 {
   main {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .home_logo img {
+    max-width: 200px;
   }
 
   .img_dog {
@@ -182,7 +186,7 @@ section h1 {
     font-size: 20px;
   }
 }
-
+/* Desktop size */
 @media (min-width: 964px) {
   .nav_position {
     display: none;
@@ -193,7 +197,7 @@ section h1 {
   }
 
   .home_logo img {
-    max-width: 200px;
+    max-width: 250px;
   }
 
   .cart_icon img {
