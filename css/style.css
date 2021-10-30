@@ -233,4 +233,10 @@ section h1 {
   footer a {
     font-size: 25px;
   }
+
+  .cta:hover {
+    background-color: #fff;
+    color: #324759;
+    border-color: #324759;
+  }
 }
