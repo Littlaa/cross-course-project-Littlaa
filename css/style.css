@@ -65,6 +65,7 @@ body {
 
 footer a {
   text-decoration: underline;
+  color: #000;
 }
 
 .footer_icons {
@@ -105,9 +106,10 @@ main img {
   position: absolute;
   text-align: left;
   font-size: 90%;
-  right: 19vh;
-  top: 8vh;
+  right: 21vh;
+  top: 9vh;
   transform: translate(-50%, -50%);
+  color: #000;
 }
 
 .container {
