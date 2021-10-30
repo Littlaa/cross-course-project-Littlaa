@@ -15,10 +15,6 @@ h1 {
   font-family: "Bahnschrift bold condensed", Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h2 {
-  font-family: "Bahnschrift condensed", Verdana, Geneva, Tahoma, sans-serif;
-}
-
 .home_logo {
   padding: 10px;
 }
@@ -64,10 +60,6 @@ body {
   grid-template-rows: auto 1fr auto;
 }
 
-section h1 {
-  text-align: center;
-}
-
 footer a {
   text-decoration: underline;
   color: #000;
@@ -103,6 +95,10 @@ main img {
   width: 263px;
   height: 175px;
   padding: 20px;
+}
+
+section h1 {
+  text-align: center;
 }
 
 .cta_ch {
@@ -152,29 +148,37 @@ main img {
     grid-template-columns: 1fr 1fr;
   }
 
-  main img {
-    width: 335px;
-    height: 247px;
+  .img_dog {
+    width: 502px;
+    height: 335px;
     padding: 20px;
   }
 
-  section h1 {
-    font-size: 32px;
+  .img_manwom {
+    width: 465px;
+    height: 333px;
+    padding: 20px;
   }
 
+  section h1,
   .img_text,
   .top-left {
-    font-size: 22px;
+    font-size: 32px;
   }
 
   .cta_ch {
     font-size: 22px;
-    right: 24vh;
+    right: 39vh;
     top: 11vh;
   }
 
   .cta {
     padding: 10px 80px;
+    font-size: 1.6em;
+  }
+
+  footer a {
+    font-size: 20px;
   }
 }
 
@@ -197,16 +201,19 @@ main img {
     padding: 10px;
   }
 
-  main img {
-    width: 650px;
-    height: 562px;
+  .img_dog {
+    width: 753px;
+    height: 502px;
     padding: 20px;
   }
 
-  section h1 {
-    font-size: 48px;
+  .img_manwom {
+    width: 697px;
+    height: 500px;
+    padding: 20px;
   }
 
+  section h1,
   .img_text,
   .top-left {
     font-size: 48px;
@@ -214,7 +221,11 @@ main img {
 
   .cta_ch {
     font-size: 32px;
-    right: 48vh;
+    right: 52vh;
     top: 21vh;
+  }
+
+  footer a {
+    font-size: 20px;
   }
 }
