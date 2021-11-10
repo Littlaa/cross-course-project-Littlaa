@@ -1,9 +1,4 @@
 /* Tablet size*/
-@media (max-width: 965px) {
-  .nav_position_desktop {
-    display: none;
-  }
-}
 
 @media (min-width: 650px) {
   main {
