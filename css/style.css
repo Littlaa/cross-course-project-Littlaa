@@ -5,12 +5,12 @@
 
 @font-face {
   font-family: "Bahnschrift light";
-  src: url("../fonts/BAHNSCHRIFT\ 1.TTF") format("truetype");
+  src: url("../fonts/BAHNSCHRIFT 1.TTF") format("truetype");
 }
 
 @font-face {
   font-family: "Bahnschrift semilightsemicondensed ";
-  src: url("../fonts/BAHNSCHRIFT\ 7.TTF") format("truetype");
+  src: url("../fonts/BAHNSCHRIFT 7.TTF") format("truetype");
 }
 
 /* Layout */
@@ -19,6 +19,32 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+nav {
+  display: none;
+  position: fixed;
+  top: 87px;
+  background: #fff;
+  z-index: 1000;
+  right: 0px;
+}
+
+nav ul {
+  padding: 0px;
+}
+
+nav li {
+  display: block;
+  padding: 18px 15px;
+}
+
+#hamburger_menu {
+  display: none;
+}
+
+#hamburger_menu:checked ~ nav {
+  display: block;
 }
 
 h1 {
@@ -38,12 +64,6 @@ a {
   font-family: "Bahnschrift light", Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.nav_position {
-  padding: 5%;
-  text-align: center;
-  position: relative;
-}
-
 .cta {
   background-color: #324759;
   position: inherit;
@@ -52,7 +72,7 @@ a {
   border-radius: 30px;
   border-width: 5px;
   border-style: solid;
-  font-size: 1.2em;
+  font-size: 1em;
   padding: 5px 25px;
 }
 
