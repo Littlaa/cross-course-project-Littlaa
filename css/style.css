@@ -60,6 +60,29 @@ body {
   grid-template-rows: auto 1fr auto;
 }
 
+.home_page {
+  display: flex;
+  flex-direction: column;
+}
+
+.home_page div {
+  flex: 1;
+  min-height: 500px;
+  background-size: cover;
+  background-position-x: center;
+  padding: 10px;
+}
+
+.home_push {
+  background: url("../images/rainydays-dog.jpg");
+  color: #fff;
+  text-align: center;
+}
+
+.home_news {
+  background: url("../images/rainydays-manyellow.jpg");
+}
+
 footer a {
   text-decoration: underline;
   padding: 10px;
@@ -67,10 +90,12 @@ footer a {
 }
 
 .footer_icons {
+  display: flex;
   padding: 15px;
 }
 
 .footer_links {
+  display: flex;
   padding: 15px;
   font-family: "Bahnschrift condensed", Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -82,58 +107,12 @@ footer {
   align-items: center;
 }
 
-/* Main elements home*/
 main {
-  display: grid;
-  grid-template-columns: auto;
-  justify-content: center;
-  justify-items: center;
-  align-content: center;
-  margin-bottom: 20%;
-}
-
-main img {
-  width: 263px;
-  height: 175px;
-  padding: 20px;
+  padding: 10px;
 }
 
 section h1 {
   text-align: center;
-}
-
-.cta_ch {
-  font-family: "Bahnschrift condensed", Verdana, Geneva, Tahoma, sans-serif;
-  text-decoration: underline;
-  position: absolute;
-  text-align: left;
-  font-size: 90%;
-  right: 21vh;
-  top: 9vh;
-  transform: translate(-50%, -50%);
-  color: #000;
-}
-
-.container {
-  position: relative;
-}
-
-.img_text {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: #fff;
-  font-family: "Bahnschrift condensed", Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.top-left {
-  position: absolute;
-  top: 3vh;
-  left: 3vh;
-  color: #324759;
-  font-family: "Bahnschrift condensed", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Tablet size*/
