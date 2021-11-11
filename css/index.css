@@ -1,0 +1,30 @@
+.home_page {
+  display: flex;
+  flex-direction: column;
+}
+
+.home_page div {
+  flex: 1;
+  min-height: 500px;
+  background-size: cover;
+  background-position-x: center;
+  padding: 10px;
+}
+
+.home_push {
+  background: url("../images/rainydays-dog.jpg");
+  color: #fff;
+  text-align: center;
+}
+
+.home_news {
+  background: url("../images/rainydays-manyellow.jpg");
+}
+
+main h2 {
+  font-family: "Bahnschrift condensed", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section h1 {
+  text-align: center;
+}

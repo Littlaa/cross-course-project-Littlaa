@@ -9,7 +9,7 @@
 }
 
 @font-face {
-  font-family: "Bahnschrift semilightsemicondensed ";
+  font-family: "Bahnschrift semilightsemicondensed";
   src: url("../fonts/BAHNSCHRIFT 7.TTF") format("truetype");
 }
 
@@ -95,39 +95,8 @@ body {
   grid-template-rows: auto 1fr auto;
 }
 
-.home_page {
-  display: flex;
-  flex-direction: column;
-}
-
-.home_page div {
-  flex: 1;
-  min-height: 500px;
-  background-size: cover;
-  background-position-x: center;
-  padding: 10px;
-}
-
-.home_push {
-  background: url("../images/rainydays-dog.jpg");
-  color: #fff;
-  text-align: center;
-}
-
-.home_news {
-  background: url("../images/rainydays-manyellow.jpg");
-}
-
 main {
   padding: 10px;
-}
-
-main h2 {
-  font-family: "Bahnschrift condensed", Verdana, Geneva, Tahoma, sans-serif;
-}
-
-section h1 {
-  text-align: center;
 }
 
 footer a {
