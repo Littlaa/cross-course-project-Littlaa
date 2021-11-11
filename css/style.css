@@ -51,6 +51,11 @@ h1 {
   font-family: "Bahnschrift condensed", Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h3,
+p {
+  font-family: "Bahnschrift light", Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .home_logo {
   padding: 10px;
 }

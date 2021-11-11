@@ -1,0 +1,19 @@
+.featured_products {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 2em;
+}
+
+.product_item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background: #d99f59;
+}
+
+.product_item img {
+  width: 50%;
+  padding: 20px;
+}
