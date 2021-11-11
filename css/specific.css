@@ -1,0 +1,27 @@
+.product {
+  display: flex;
+  flex-direction: column;
+}
+
+.product div {
+  flex: 1;
+  min-height: 250px;
+  background-size: cover;
+  background-position-x: center;
+  padding: 10px;
+}
+
+.product_box {
+  background: url("../images/jacket-yellow.jpg");
+}
+
+.product h1,
+p,
+a {
+  text-align: left;
+  padding: inherit;
+}
+
+.cta_specific {
+  text-transform: uppercase;
+}
