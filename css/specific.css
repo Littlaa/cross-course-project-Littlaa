@@ -22,6 +22,28 @@ a {
   padding: inherit;
 }
 
+input {
+  display: none;
+}
+
+#s:checked + label {
+  background: #324759;
+  color: #fff;
+}
+#m:checked + label {
+  background: #324759;
+  color: #fff;
+}
+#l:checked + label {
+  background: #324759;
+  color: #fff;
+}
+
+.product_size {
+  background: #d99f59;
+  padding: 15px;
+}
+
 .cta_specific {
   text-transform: uppercase;
 }
