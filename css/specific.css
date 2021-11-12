@@ -62,7 +62,3 @@ input {
 #add_to_cart:checked ~ .cart {
   display: block;
 }
-
-label {
-  font-family: "Bahnschrift light", Verdana, Geneva, Tahoma, sans-serif;
-}

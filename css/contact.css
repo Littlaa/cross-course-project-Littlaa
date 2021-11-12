@@ -16,3 +16,18 @@ textarea {
 .info_contact {
   padding: 20px;
 }
+
+#send,
+.send {
+  display: none;
+}
+
+.send {
+  background: #d99f59;
+  right: 10px;
+  padding: 10px;
+}
+
+#send:checked ~ .send {
+  display: block;
+}

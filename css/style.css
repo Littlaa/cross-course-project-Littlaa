@@ -51,6 +51,10 @@ label:hover {
   cursor: pointer;
 }
 
+label {
+  font-family: "Bahnschrift light", Verdana, Geneva, Tahoma, sans-serif;
+}
+
 h1 {
   font-family: "Bahnschrift condensed", Verdana, Geneva, Tahoma, sans-serif;
 }
