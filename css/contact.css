@@ -11,3 +11,8 @@ textarea {
   height: 65%;
   min-height: 100px;
 }
+
+.form_contact,
+.info_contact {
+  padding: 20px;
+}
