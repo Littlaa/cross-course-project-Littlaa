@@ -1,0 +1,44 @@
+.checkout_img {
+  background: url("../images/jacket-yellow.jpg");
+  min-height: 280px;
+  background-size: cover;
+  background-position-x: center;
+  padding: 10px;
+}
+
+.checkout_summary {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  border: #707070;
+  border-radius: 20px;
+  margin: 1px 10px 10px 0px;
+  padding: 10px;
+  width: 100%;
+}
+
+.form_wrap {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+}
+
+.form_wrap > * {
+  flex: 1;
+  padding: 20px;
+}
+
+.h1_checkout {
+  margin-bottom: 0;
+}
+
+.billing {
+  display: flex;
+}
+
+.cta_checkout {
+  text-transform: uppercase;
+  display: inline-block;
+}

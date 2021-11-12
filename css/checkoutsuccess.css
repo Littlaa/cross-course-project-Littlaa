@@ -1,0 +1,26 @@
+.img_order {
+  background: url("../images/jacket-yellow.jpg");
+  min-height: 280px;
+  background-size: cover;
+  background-position-x: center;
+  padding: 10px;
+}
+
+.summary_order {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links_order {
+  display: flex;
+  justify-content: space-between;
+  line-height: 50px;
+}
+
+.logo_order {
+  background: url("../images/RainyDays_Logo.png");
+  min-height: 130px;
+  background-size: inherit;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
