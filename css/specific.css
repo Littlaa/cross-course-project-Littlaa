@@ -5,7 +5,7 @@
 
 .product div {
   flex: 1;
-  min-height: 250px;
+  min-height: 280px;
   background-size: cover;
   background-position-x: center;
   padding: 10px;
@@ -46,4 +46,23 @@ input {
 
 .cta_specific {
   text-transform: uppercase;
+}
+
+#add-to-cart,
+.cart {
+  display: none;
+}
+
+.cart {
+  background: #d99f59;
+  right: 10px;
+  padding: 10px;
+}
+
+#add_to_cart:checked ~ .cart {
+  display: block;
+}
+
+label {
+  font-family: "Bahnschrift light", Verdana, Geneva, Tahoma, sans-serif;
 }

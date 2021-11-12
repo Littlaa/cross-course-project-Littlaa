@@ -47,6 +47,10 @@ nav li {
   display: block;
 }
 
+label:hover {
+  cursor: pointer;
+}
+
 h1 {
   font-family: "Bahnschrift condensed", Verdana, Geneva, Tahoma, sans-serif;
 }
