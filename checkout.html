@@ -7,6 +7,7 @@
     <meta name="description" content="Cool and sustainable rain jackets for all weather" />
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/checkout.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/bb14e72e7a.js" crossorigin="anonymous"></script>
     <title>RainyDays | List of jackets</title>
   </head>
@@ -28,16 +29,17 @@
         <a href="checkout.html" class="cart_icon"><img src="icons/Cart.jpg" alt="Cart icon" /></a>
       </div>
     </header>
-    <main class="contact">
+    <main class="checkout_main">
       <section class="checkout_img"></section>
-      <div class="checkout_summary">
-        <p>1X Yellow Rainjacket</p>
-        <p>150$</p>
-      </div>
-      <h1 class="h1_checkout">Checkout</h1>
+        <section><div class="checkout_summary">
+          <p>1X Yellow Rainjacket</p>
+          <p>150$</p>
+        </div>
+      </section>
       <form method="post"></form>
       <div class="form_wrap">
         <section>
+          <h1 class="h1_checkout">Checkout</h1>
           <label for="name">Name</label>
           <input type="text" id="name" name="name" />
           <label for="surname">Surame</label>
@@ -48,20 +50,22 @@
           <input type="text" id="postcode" name="postcode" />
           <label for="country">Country</label>
           <input type="text" id="country" name="country" />
+        </section>
+          <section>
           <h1>Billing information</h1>
           <label for="cardholder">Card holder</label>
           <input type="text" id="cardholder" name="cardholder" />
           <label for="cardnumber">Card number</label>
           <input type="text" id="cardnumber" name="cardnumber" />
-          <div class="billing">
+          <div>
             <label for="mm/yy">MM/YY</label>
             <input type="text" id="mm/yy" name="mm/yy" />
             <label for="cvc">CVC</label>
             <input type="text" id="cvc" name="cvc" />
+            <a href="checkoutsuccess.html" class="cta cta_checkout">place order</a>
+          </section>
           </div>
-        </section>
       </div>
-      <a href="checkoutsuccess.html" class="cta cta_checkout">place order</a>
     </main>
     <footer>
       <div class="footer_icons">

@@ -1,58 +1,104 @@
 /* Tablet size*/
 
-@media (min-width: 650px) {
-  main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+@media (min-width: 600px) {
+  .home_page {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .home_page div {
+    margin-right: 20px;
   }
 
   .home_logo img {
     max-width: 200px;
   }
 
-  .img_dog {
-    width: 502px;
-    height: 335px;
-    padding: 20px;
+  nav {
+    display: block;
+    position: static;
   }
 
-  .img_manwom {
-    width: 465px;
-    height: 333px;
-    padding: 20px;
+  nav li {
+    display: contents;
   }
 
-  section h1,
-  .img_text,
-  .top-left {
+  header label {
+    display: none;
+  }
+
+  section h1 {
     font-size: 32px;
   }
 
-  .cta_ch {
-    font-size: 22px;
-    right: 39vh;
-    top: 11vh;
+  .cta {
+    padding: 10px 22px;
+    font-size: 1em;
   }
 
-  .cta {
-    padding: 10px 80px;
-    font-size: 1.6em;
+  .cta:hover {
+    background-color: #fff;
+    color: #324759;
+    border-color: #324759;
+  }
+
+  .product {
+    display: flex;
+    flex-direction: row;
+    margin-top: 75px;
+  }
+
+  .checkout_summary {
+    justify-content: space-evenly;
   }
 
   footer a {
     font-size: 20px;
   }
 }
+
+@media (min-width: 800px) {
+  .featured_products {
+    display: flex;
+    gap: 2em;
+    margin-top: 80px;
+  }
+
+  .checkout_main {
+    display: flex;
+  }
+
+  .checkout_img {
+    flex-basis: 100%;
+    margin: 40px;
+  }
+
+  .order_main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+  }
+
+  .logo_center {
+    align-self: center;
+  }
+
+  .main_about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about_header {
+    text-align: left;
+  }
+
+  .image_about {
+    background-position: center;
+  }
+}
+
 /* Desktop size */
 @media (min-width: 964px) {
-  .nav_position {
-    display: none;
-  }
-
-  .nav_position_desktop {
-    display: contents;
-  }
-
   .home_logo img {
     max-width: 250px;
   }
@@ -63,37 +109,44 @@
     padding: 10px;
   }
 
-  .img_dog {
-    width: 753px;
-    height: 502px;
-    padding: 20px;
-  }
-
-  .img_manwom {
-    width: 697px;
-    height: 500px;
-    padding: 20px;
-  }
-
-  section h1,
-  .img_text,
-  .top-left {
+  section h1 {
     font-size: 48px;
-  }
-
-  .cta_ch {
-    font-size: 32px;
-    right: 52vh;
-    top: 21vh;
   }
 
   footer a {
     font-size: 25px;
   }
 
-  .cta:hover {
-    background-color: #fff;
-    color: #324759;
-    border-color: #324759;
+  .cta {
+    padding: 10px 78px;
+  }
+
+  .home_push h2,
+  .home_news h2 {
+    font-size: 2em;
+  }
+
+  .home_news a {
+    font-size: 1.5em;
+  }
+
+  .product div {
+    line-height: 30px;
+  }
+}
+
+@media (min-width: 1540px) {
+  .home_page div {
+    min-height: 700px;
+  }
+
+  .cta {
+    padding: 10px 140px;
+    font-size: 1.5em;
+  }
+
+  .cta_specific {
+    padding: 10px 70px;
+    font-size: 1.2em;
   }
 }

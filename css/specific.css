@@ -6,7 +6,8 @@
 .product div {
   flex: 1;
   min-height: 280px;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position-x: center;
   padding: 10px;
 }
