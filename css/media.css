@@ -95,6 +95,16 @@
   .image_about {
     background-position: center;
   }
+
+  .main_contact {
+    display: flex;
+    margin: auto;
+  }
+
+  .form_contact,
+  .info_contact {
+    padding: 70px;
+  }
 }
 
 /* Desktop size */
