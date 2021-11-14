@@ -60,8 +60,7 @@
 @media (min-width: 800px) {
   .featured_products {
     display: flex;
-    gap: 2em;
-    margin-top: 80px;
+    height: 550px;
   }
 
   .checkout_main {
