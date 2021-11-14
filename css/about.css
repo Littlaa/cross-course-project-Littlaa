@@ -17,3 +17,8 @@
   background-position-x: center;
   padding: 10px;
 }
+
+.about_info a {
+  text-decoration: underline;
+  color: #000;
+}

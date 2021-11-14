@@ -63,3 +63,8 @@ input {
 #add_to_cart:checked ~ .cart {
   display: block;
 }
+
+.cart a {
+  text-decoration: underline;
+  color: #000;
+}

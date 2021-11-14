@@ -18,6 +18,11 @@
   line-height: 50px;
 }
 
+.links_order a {
+  text-decoration: underline;
+  color: #000;
+}
+
 .logo_order {
   background: url("../images/RainyDays_Logo.png");
   min-height: 130px;

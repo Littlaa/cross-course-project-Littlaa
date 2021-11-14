@@ -22,6 +22,11 @@
   background: url("../images/rainydays-manyellow.jpg");
 }
 
+.home_news a {
+  text-decoration: underline;
+  color: #000;
+}
+
 main h2 {
   font-family: "Bahnschrift condensed", Verdana, Geneva, Tahoma, sans-serif;
 }
