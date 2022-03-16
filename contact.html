@@ -51,7 +51,7 @@
         <a href="#"> <img src="icons/Icon awesome-instagram1.png" alt="Instagram icon" /></a>
         <a href="#"> <img src="icons/Icon simple-facebook.png" alt="Facebook icon" /></a>
       </section>
-      <section class="form_contact">
+      <!-- <section class="form_contact">
         <h2>You can also reach us here: </h2>
         <label for="name">Name</label>
         <input type="text" id="name" name="name" />
@@ -69,7 +69,31 @@
           <p>Thank you for your Message!</p>
           <p>You will hear from us soon.</p>
         </section>
+      </section> -->
+      <section class="form_contact">
+        <h2>You can also reach us here: </h2>
+      <form method="post" id="contactForm">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" />
+        <div class="form_error" id="nameError">Please enter your name</div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" />
+        <div class="form_error" id="emailError">Please enter your Email</div>
+        </select>
+      <section>
+        <label for="message">Message</label>
+        <textarea name="message" id="message"></textarea>
       </section>
+      <section class="send_cta">
+        <button type="submit" class="cta cta_spesific">Send</button>
+        <!-- <label for="send" class="cta cta_specific">Send</label> -->
+        <!-- <input type="checkbox" id="send" /> -->
+        <!-- <section class="send">
+          <p>Thank you for your Message!</p>
+          <p>You will hear from us soon.</p>
+        </section> -->
+      </form>
+    </section>
     </main>
     <footer>
       <div class="footer_icons">
@@ -81,5 +105,6 @@
         <a href="/contact.html">Contact</a>
       </div>
     </footer>
+    <script src="js/contact.js"></script>
   </body>
 </html>

@@ -17,7 +17,14 @@ textarea {
   padding: 20px;
 }
 
-#send,
+.form_error {
+  display: none;
+  color: #bb0505;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+/* #send,
 .send {
   display: none;
 }
@@ -30,4 +37,4 @@ textarea {
 
 #send:checked ~ .send {
   display: block;
-}
+} */
