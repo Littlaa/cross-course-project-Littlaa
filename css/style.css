@@ -51,7 +51,10 @@ label:hover {
   cursor: pointer;
 }
 
-label {
+label,
+h3,
+p,
+figcaption {
   font-family: "Bahnschrift light", Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -61,11 +64,6 @@ h1 {
 
 h2 {
   font-family: "Bahnschrift semilightsemicondensed", Verdana, Geneva, Tahoma, sans-serif;
-}
-
-h3,
-p {
-  font-family: "Bahnschrift light", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .home_logo {

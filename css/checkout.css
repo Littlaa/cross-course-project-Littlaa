@@ -1,10 +1,10 @@
-.checkout_img {
-  background: url("../images/jacket-yellow.jpg");
-  min-height: 280px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  padding: 10px;
+.checkout_img img {
+  max-width: 100%;
+}
+
+.caption {
+  text-align: center;
+  padding: 5px;
 }
 
 .checkout_summary {
