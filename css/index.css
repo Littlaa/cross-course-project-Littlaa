@@ -16,6 +16,7 @@
   background: url("../images/rainydays-dog.jpg");
   color: #fff;
   text-align: center;
+  text-shadow: 2px 2px #000;
 }
 
 .home_news {
