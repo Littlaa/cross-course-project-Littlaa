@@ -1,9 +1,9 @@
 .checkout_img img {
   max-width: 100%;
+  max-height: 70%;
 }
 
 .caption {
-  text-align: center;
   padding: 5px;
 }
 
@@ -29,6 +29,13 @@ input {
 .form_wrap > * {
   flex: 1;
   padding: 20px;
+}
+
+.form_error {
+  display: none;
+  color: #bb0505;
+  margin-bottom: 10px;
+  width: 100%;
 }
 
 .h1_checkout {
