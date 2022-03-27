@@ -58,6 +58,7 @@ input {
   background: #d99f59;
   right: 10px;
   padding: 10px;
+  margin-top: 15px;
 }
 
 #add_to_cart:checked ~ .cart {

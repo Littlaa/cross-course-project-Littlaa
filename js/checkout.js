@@ -9,16 +9,16 @@ const country = document.querySelector("#country");
 const countryError = document.querySelector("#countryError");
 const cardholder = document.querySelector("#cardholder");
 const cardholderError = document.querySelector("#cardholderError");
-const cardnumber = document.querySelector("#cardnumber");
+const cardNumber = document.querySelector("#cardnumber");
 const cardError = document.querySelector("#cardError");
 const monthYear = document.querySelector("#mmyy");
 const monthError = document.querySelector("#monthError");
 const cvc = document.querySelector("#cvc");
 const cvcError = document.querySelector("#cvcError");
-const success = document.querySelector("#success");
+const success = document.querySelector("#successCheck");
 
-function formCheckoutValidation(event) {
-  event.preventDefault();
+function formCheckoutValidation(form) {
+  form.preventDefault();
 
   if (minLength(fullNameCheck.value, 0)) {
     fullNameError.style.display = "none";
@@ -45,7 +45,7 @@ function formCheckoutValidation(event) {
   } else {
     cardholderError.style.display = "block";
   }
-  if (minLength(cardnumber.value, 15)) {
+  if (minLength(cardNumber.value, 15)) {
     cardError.style.display = "none";
   } else {
     cardError.style.display = "block";
@@ -60,22 +60,30 @@ function formCheckoutValidation(event) {
   } else {
     cvcError.style.display = "block";
   }
-  // if (success) {
-  //   success.style.display = "none";
-  // } else {
-  //   success.style.display = "block";
-  // }
+  if (
+    minLength(
+      fullNameCheck.value,
+      0 && address.value,
+      0 && postcode.value,
+      3 && country.value,
+      0 && cardholder.value,
+      0 && cardNumber.value,
+      15 && monthYear.value,
+      3 && cvc.value,
+      2
+    )
+  ) {
+    return successMessage();
+  }
 }
 
-// formCheckout.addEventListener("submit", (e) => {
-//   e.preventDefault();
-
-//   if (formCheckoutValidation() === true) {
-//     formCheckout.submit();
-//   }
-// });
-
 formCheckout.addEventListener("submit", formCheckoutValidation);
+
+function successMessage() {
+  if (formCheckout) {
+    success.style.display = "block";
+  }
+}
 
 function minLength(value, len) {
   if (value.trim().length > len) {
