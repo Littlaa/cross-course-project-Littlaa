@@ -61,6 +61,14 @@ function formCheckoutValidation(event) {
   }
 }
 
+// formCheckout.addEventListener("submit", (e) => {
+//   e.preventDefault();
+
+//   if (formCheckoutValidation() === true) {
+//     formCheckout.submit();
+//   }
+// });
+
 formCheckout.addEventListener("submit", formCheckoutValidation);
 
 function minLength(value, len) {
