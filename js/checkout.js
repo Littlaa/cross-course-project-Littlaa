@@ -15,6 +15,7 @@ const monthYear = document.querySelector("#mmyy");
 const monthError = document.querySelector("#monthError");
 const cvc = document.querySelector("#cvc");
 const cvcError = document.querySelector("#cvcError");
+const success = document.querySelector("#success");
 
 function formCheckoutValidation(event) {
   event.preventDefault();
@@ -59,6 +60,11 @@ function formCheckoutValidation(event) {
   } else {
     cvcError.style.display = "block";
   }
+  // if (success) {
+  //   success.style.display = "none";
+  // } else {
+  //   success.style.display = "block";
+  // }
 }
 
 // formCheckout.addEventListener("submit", (e) => {

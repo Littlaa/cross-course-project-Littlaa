@@ -38,6 +38,10 @@ input {
   width: 100%;
 }
 
+.success {
+  display: none;
+}
+
 .h1_checkout {
   margin-bottom: 0;
 }
