@@ -69,3 +69,7 @@ input {
   text-decoration: underline;
   color: #000;
 }
+
+.results_details img{
+width: 25%;
+}

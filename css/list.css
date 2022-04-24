@@ -4,16 +4,19 @@
   gap: 2em;
 }
 
-.product_item {
+.results {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   text-align: center;
   background: #d99f59;
 }
 
-.product_item img {
+.results h2, p {
+  color: #000;
+}
+
+.results img {
   width: 50%;
   padding: 20px;
 }
