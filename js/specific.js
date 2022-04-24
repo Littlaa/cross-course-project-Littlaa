@@ -18,7 +18,8 @@ async function callDetails(url) {
     detailContainer.innerHTML += `<h1>${details.name}</h1>
                                 <div>
                                 <img src="${details.images[0].src}"> 
-                                ${details.description}
+                                <p>${details.description}</p>
+                                <p>${details.prices.price}$</p>
                                 </div>`;
   } catch (error) {
     console.log(error);
@@ -27,3 +28,6 @@ async function callDetails(url) {
 }
 
 callDetails(baseUrl);
+
+//Didn't get the sizes to come through so I used the Html to show the sizes for now
+//and to get the user from details page to cart.
