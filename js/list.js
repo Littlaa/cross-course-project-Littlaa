@@ -20,6 +20,7 @@ async function getProducts(url) {
     }
   } catch (error) {
     console.log(error);
+    resultsContainer.innerHTML = displayError("Something went wrong while calling the API");
   }
 }
 

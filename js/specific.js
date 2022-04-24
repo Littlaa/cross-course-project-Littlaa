@@ -22,6 +22,7 @@ async function callDetails(url) {
                                 </div>`;
   } catch (error) {
     console.log(error);
+    detailContainer.innerHTML = displayError("Something went wrong while calling the API");
   }
 }
 
