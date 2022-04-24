@@ -9,6 +9,8 @@ async function getProducts(url) {
     const products = await response.json();
     console.log(products);
 
+    resultsContainer.innerHTML = "";
+
     for (let i = 0; i < products.length; i++) {
       resultsContainer.innerHTML += `<a href="specific.html?jacketId=${products[i].id}">
                                     <img src="${products[i].images[0].src}">

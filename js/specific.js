@@ -13,6 +13,8 @@ async function callDetails(url) {
     const response = await fetch(url);
     const details = await response.json();
 
+    detailContainer.innerHTML = "";
+
     detailContainer.innerHTML += `<h1>${details.name}</h1>
                                 <div>
                                 <img src="${details.images[0].src}"> 
