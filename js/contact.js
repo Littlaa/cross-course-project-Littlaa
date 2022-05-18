@@ -1,11 +1,10 @@
-const form = document.querySelector("#form");
+const contactForm = document.querySelector("#contactForm");
 const fullName = document.querySelector("#name");
 const nameError = document.querySelector("#nameError");
 const email = document.querySelector("#email");
 const emailError = document.querySelector("#emailError");
 const message = document.querySelector("#message");
 const messageError = document.querySelector("#messageError");
-const sendSuccess = document.querySelector(".send");
 
 function formValidation(event) {
   event.preventDefault();
@@ -25,18 +24,9 @@ function formValidation(event) {
   } else {
     messageError.style.display = "block";
   }
-  if (minLength(fullName.value, 0 && message.value, 0) && emailValidation(email.value)) {
-    return sendMessage();
-  }
 }
 
-form.addEventListener("submit", formValidation);
-
-function sendMessage() {
-  if (form) {
-    sendSuccess.style.display = "block";
-  }
-}
+contactForm.addEventListener("submit", formValidation);
 
 function minLength(value, len) {
   if (value.trim().length > len) {
