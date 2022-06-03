@@ -21,7 +21,7 @@
 
 1. Clone the repo:
 
-git clone git@github.com:https://github.com/Noroff-FEU-Assignments/cross-course-project-Littlaa.git
+`git clone git@github.com:https://github.com/Noroff-FEU-Assignments/cross-course-project-Littlaa.git`
 
 2. Install the dependencies:
 
