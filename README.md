@@ -19,6 +19,8 @@
 
 ## Getting started
 
+### Installing
+
 1. Clone the repo:
 
 ```
@@ -30,3 +32,17 @@ git clone git@github.com:https://github.com/Noroff-FEU-Assignments/cross-course-
 ```
 npm install
 ```
+
+### Running
+
+To run the app, use this command:
+
+```
+npm run start
+```
+
+## Contributing
+
+## Contact
+
+## Acknowledgments
