@@ -21,4 +21,4 @@
 
 2. Install the dependencies:
 
-npm install
+`npm install`
