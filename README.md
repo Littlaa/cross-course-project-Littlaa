@@ -8,9 +8,9 @@
 
 - I build this website so I could learn more about how to code.
 
-- On this website you can shop for new jackets.
+- On this website, you can shop for new jackets.
 
-- In this project I learned how to build a user friendly, clean and neat website.
+- In this project, I learned how to build a user-friendly, clean and neat website.
 
 ## Built with
 
