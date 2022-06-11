@@ -6,7 +6,7 @@
 
 - My motivation for this project was to learn how to make a shopping website.
 
-- I build this website so I could learn more about how to code.
+- I built this website so I could learn more about how to code.
 
 - On this website, you can shop for new jackets.
 
@@ -21,7 +21,7 @@
 
 ## Contributing
 
-If you want to contribute on this blog here are the steps you should follow:
+If you want to contribute to this blog here are the steps you should follow:
 
 1. Fork the project to your own GitHub profile.
 2. Clone the fork on your local machine.
