@@ -1,0 +1,38 @@
+.home_page {
+  display: flex;
+  flex-direction: column;
+}
+
+.home_page div {
+  flex: 1;
+  min-height: 500px;
+  background-size: cover;
+  background-position-x: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.home_push {
+  background: url("../images/rainydays-dog.jpg");
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px #000;
+}
+
+.home_news {
+  background: url("../images/rainydays-manyellow.jpg");
+}
+
+.home_news a {
+  text-decoration: underline;
+  color: #000;
+  font-size: 1.5em;
+}
+
+main h2 {
+  font-family: "Bahnschrift condensed", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section h1 {
+  text-align: center;
+}

@@ -1,0 +1,75 @@
+.product {
+  display: flex;
+  flex-direction: column;
+}
+
+.product div {
+  flex: 1;
+  min-height: 280px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  padding: 10px;
+}
+
+.product_box {
+  background: url("../images/jacket-yellow.jpg");
+}
+
+.product h1,
+p,
+a {
+  text-align: left;
+  padding: inherit;
+}
+
+input {
+  display: none;
+}
+
+#s:checked + label {
+  background: #324759;
+  color: #fff;
+}
+#m:checked + label {
+  background: #324759;
+  color: #fff;
+}
+#l:checked + label {
+  background: #324759;
+  color: #fff;
+}
+
+.product_size {
+  background: #d99f59;
+  padding: 15px;
+}
+
+.cta_specific {
+  text-transform: uppercase;
+}
+
+#add-to-cart,
+.cart {
+  display: none;
+}
+
+.cart {
+  background: #d99f59;
+  right: 10px;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+#add_to_cart:checked ~ .cart {
+  display: block;
+}
+
+.cart a {
+  text-decoration: underline;
+  color: #000;
+}
+
+.results_details img{
+width: 25%;
+}

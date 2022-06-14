@@ -1,0 +1,26 @@
+.featured_products {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 2em;
+}
+
+.results {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+  background: #d99f59;
+}
+
+.results h2, p {
+  color: #000;
+}
+
+.results img {
+  width: 50%;
+  padding: 20px;
+}
+
+.list_h1 {
+  text-align: center;
+}

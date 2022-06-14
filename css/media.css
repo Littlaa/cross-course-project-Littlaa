@@ -1,0 +1,161 @@
+/* Tablet size*/
+
+@media (min-width: 600px) {
+  .home_page {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .home_page div {
+    margin-right: 20px;
+  }
+
+  .home_logo img {
+    max-width: 200px;
+  }
+
+  nav {
+    display: block;
+    position: static;
+  }
+
+  nav li {
+    display: contents;
+  }
+
+  header label {
+    display: none;
+  }
+
+  section h1 {
+    font-size: 32px;
+  }
+
+  .cta {
+    padding: 10px 22px;
+    font-size: 1em;
+  }
+
+  .cta:hover {
+    background-color: #fff;
+    color: #324759;
+    border-color: #324759;
+  }
+
+  .product {
+    display: flex;
+    flex-direction: row;
+    margin-top: 75px;
+  }
+
+  .checkout_summary {
+    justify-content: space-evenly;
+  }
+
+  footer a {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 800px) {
+  .featured_products {
+    display: flex;
+    height: 550px;
+  }
+
+  .checkout_main {
+    display: flex;
+  }
+
+  .checkout_img {
+    flex-basis: 100%;
+    margin: 40px;
+  }
+
+  .order_main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+  }
+
+  .logo_center {
+    align-self: center;
+  }
+
+  .main_about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about_header {
+    text-align: left;
+  }
+
+  .image_about {
+    background-position: center;
+  }
+
+  .main_contact {
+    display: flex;
+    margin: auto;
+  }
+
+  .form_contact,
+  .info_contact {
+    padding: 70px;
+  }
+}
+
+/* Desktop size */
+@media (min-width: 964px) {
+  .home_logo img {
+    max-width: 250px;
+  }
+
+  .cart_icon img {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+  }
+
+  section h1 {
+    font-size: 48px;
+  }
+
+  footer a {
+    font-size: 25px;
+  }
+
+  .cta {
+    padding: 10px 78px;
+  }
+
+  .home_push h2,
+  .home_news h2 {
+    font-size: 2em;
+  }
+
+  .home_news a {
+    font-size: 2em;
+  }
+
+  .product div {
+    line-height: 30px;
+  }
+}
+
+@media (min-width: 1540px) {
+  .home_page div {
+    min-height: 700px;
+  }
+
+  .cta {
+    padding: 10px 140px;
+    font-size: 1.5em;
+  }
+
+  .cta_specific {
+    padding: 10px 70px;
+    font-size: 1.2em;
+  }
+}

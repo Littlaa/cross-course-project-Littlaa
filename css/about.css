@@ -1,0 +1,24 @@
+.about_header {
+  text-align: center;
+}
+
+.about_info {
+  text-align: left;
+  padding: 20px;
+  line-height: 30px;
+}
+
+.image_about {
+  background: url("../images/RainyDays---man.png");
+
+  min-height: 200px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  padding: 10px;
+}
+
+.about_info a {
+  text-decoration: underline;
+  color: #000;
+}
